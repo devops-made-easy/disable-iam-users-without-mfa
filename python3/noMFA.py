@@ -16,7 +16,7 @@ from_addr = '<sender_email_address>'
 iam = boto3.client('iam')
 iam_users = []
 
-Will ignore these users if you need
+#Will ignore these users if you need
 ignore_list = ['<exact username in AWS>']
 
 #this email will be used if user's  email is not found
